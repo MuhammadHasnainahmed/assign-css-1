@@ -1,0 +1,121 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+
+}
+
+/* --------------------------------------- */
+
+.container {
+    margin: 10px;
+}
+
+.heading {
+    text-align: center;
+    padding: 50px 0;
+    color: #fff;
+    line-height: 50px;
+    background-color: rgb(10, 60, 87);
+    font-size: 2em;
+}
+
+.menu th {
+    text-align: center;
+    padding: 20px;
+    align-items: center;
+    background-color: rgb(10, 60, 87);
+}
+
+.menu a {
+    padding: 10px;
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.2em;
+}
+
+.menu th:hover {
+    background-color: rgb(35, 95, 127);
+}
+
+
+/* --------------------------------------- */
+
+.sub-heading {
+    text-align: center;
+    padding: 20px;
+    margin-top: 30px ;
+    background-color: #dcd6f7;
+    color: #333;
+    font-size: 1.8em;
+}
+
+.food-menu {
+    margin: 20px auto;
+    text-align: center;
+    border-collapse: collapse;
+}
+
+
+.food-menu td {
+    padding: 30px;
+    background-color: rgb(10, 60, 87);
+    color: #fff;
+    font-size: 1.2em;
+    border: 1px solid #fff;
+}
+
+.food-menu a {
+    text-decoration: none;
+    color: #fff;    
+}
+
+.food-menu td:hover {
+    background-color: rgb(35, 95, 127);
+}
+
+.old-price {
+    text-decoration: line-through;
+    color: red; 
+}
+
+
+.new-price {
+    text-decoration: underline;
+    color: green;
+}
+
+.menu-list{
+  
+    padding: 30px;
+}
+
+/* ---------------------------------------   */
+
+.about-section {
+    background-color: #dcd6f7;
+    padding: 30px;
+    margin: 20px auto;
+    border-radius: 10px;
+    width: 90%;
+    text-align: center;
+}
+
+.about-section h1 {
+    font-size: 40px;
+    margin-bottom: 20px;
+    color: #333;
+    text-decoration: underline;
+}
+
+.about-section p {
+    font-size: 20px;
+    margin: 10px 0;
+    color: #555;
+    line-height: 1.8;
+}
+
